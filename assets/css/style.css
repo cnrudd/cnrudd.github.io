@@ -1,0 +1,20 @@
+body {
+    background-image: url('../img/csxtrain.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center bottom;
+    margin-bottom: 300px;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
